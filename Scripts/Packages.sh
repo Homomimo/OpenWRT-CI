@@ -42,8 +42,8 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-lucky" "gdy666/luci-app-lucky" "main"
 UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main"
-UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master"
-UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
+UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master" "pkg"
+UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master" "pkg"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
